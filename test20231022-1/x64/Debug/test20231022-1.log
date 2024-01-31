@@ -1,0 +1,6 @@
+﻿  test20231022-1.cpp
+D:\vs code\test20231022-1\test20231022-1.cpp(1,1): warning C4005: “_CRT_SECURE_NO_DEPRECATE”: 宏重定义
+D:\vs code\test20231022-1\test20231022-1.cpp(1,1): message : 之前在命令行上声明的“_CRT_SECURE_NO_DEPRECATE”
+D:\vs code\test20231022-1\test20231022-1.cpp(2,1): warning C4005: “_CRT_NONSTDC_NO_DEPRECATE”: 宏重定义
+D:\vs code\test20231022-1\test20231022-1.cpp(2,1): message : 之前在命令行上声明的“_CRT_NONSTDC_NO_DEPRECATE”
+  test20231022-1.vcxproj -> D:\vs code\test20231022-1\x64\Debug\test20231022-1.exe

@@ -1,0 +1,2 @@
+﻿  test20231022-1.cpp
+D:\vs code\test20231022-1\test20231022-1.cpp(9,2): error C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
