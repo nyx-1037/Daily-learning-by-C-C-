@@ -1,0 +1,10 @@
+﻿  flower2.cpp
+D:\vs code\flower\flower2.cpp(99,60): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\vs code\flower\flower2.cpp(99,33): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\vs code\flower\flower2.cpp(122,54): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\vs code\flower\flower2.cpp(122,41): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\vs code\flower\flower2.cpp(144,62): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\vs code\flower\flower2.cpp(144,49): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\vs code\flower\flower2.cpp(158,15): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\vs code\flower\flower2.cpp(45): warning C4715: “creat_random”: 不是所有的控件路径都返回值
+  flower.vcxproj -> D:\vs code\flower\x64\Debug\flower.exe

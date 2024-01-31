@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "flower", "flower.vcxproj", "{FF9273DF-19AA-438C-B87E-CDF838C64DFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF9273DF-19AA-438C-B87E-CDF838C64DFB}.Debug|x64.ActiveCfg = Debug|x64
+		{FF9273DF-19AA-438C-B87E-CDF838C64DFB}.Debug|x64.Build.0 = Debug|x64
+		{FF9273DF-19AA-438C-B87E-CDF838C64DFB}.Debug|x86.ActiveCfg = Debug|Win32
+		{FF9273DF-19AA-438C-B87E-CDF838C64DFB}.Debug|x86.Build.0 = Debug|Win32
+		{FF9273DF-19AA-438C-B87E-CDF838C64DFB}.Release|x64.ActiveCfg = Release|x64
+		{FF9273DF-19AA-438C-B87E-CDF838C64DFB}.Release|x64.Build.0 = Release|x64
+		{FF9273DF-19AA-438C-B87E-CDF838C64DFB}.Release|x86.ActiveCfg = Release|Win32
+		{FF9273DF-19AA-438C-B87E-CDF838C64DFB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {339591CA-1359-4042-8523-055BAC346703}
+	EndGlobalSection
+EndGlobal
