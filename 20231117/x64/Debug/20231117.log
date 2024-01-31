@@ -1,0 +1,11 @@
+﻿  2023111701.cpp
+D:\vs code\20231117\2023111701.cpp(28,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\vs code\20231117\2023111701.cpp(32,22): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\vs code\20231117\2023111701.cpp(36,22): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\vs code\20231117\2023111701.cpp(45,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\vs code\20231117\2023111701.cpp(49,22): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\vs code\20231117\2023111701.cpp(53,22): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\vs code\20231117\2023111701.cpp(62,18): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\vs code\20231117\2023111701.cpp(66,22): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\vs code\20231117\2023111701.cpp(70,22): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  20231117.vcxproj -> D:\vs code\20231117\x64\Debug\20231117.exe
