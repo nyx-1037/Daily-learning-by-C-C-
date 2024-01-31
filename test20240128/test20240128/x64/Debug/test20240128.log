@@ -1,0 +1,194 @@
+﻿  01.cpp
+D:\vs code\test20240128\test20240128\01.cpp(42,15): error C2061: 语法错误: 标识符“Element”
+D:\vs code\test20240128\test20240128\01.cpp(13,19): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\vs code\test20240128\test20240128\01.cpp(14,15): error C2659: “=”: 作为左操作数
+D:\vs code\test20240128\test20240128\01.cpp(18,16): error C3867: “showcoo::color”: 非标准语法；请使用 "&" 来创建指向成员的指针
+D:\vs code\test20240128\test20240128\01.cpp(18,9): error C2440: “return”: 无法从“std::string (__cdecl showcoo::* )(void)”转换为“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”
+  D:\vs code\test20240128\test20240128\01.cpp(18,9):
+  “std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string”: 没有重载函数可以转换所有参数类型
+  	D:\Visual stdio2022\VC\Tools\MSVC\14.38.33130\include\xstring(2545,5):
+  	可能是“std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const _Elem *const )”
+          with
+          [
+              _Elem=char
+          ]
+  		D:\vs code\test20240128\test20240128\01.cpp(18,9):
+  		“std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(const _Elem *const )”: 无法将参数 1 从“std::string (__cdecl showcoo::* )(void)”转换为“const _Elem *const ”
+          with
+          [
+              _Elem=char
+          ]
+  			D:\vs code\test20240128\test20240128\01.cpp(18,16):
+  			没有使该转换得以执行的上下文
+  	D:\Visual stdio2022\VC\Tools\MSVC\14.38.33130\include\xstring(3092,5):
+  	或    “std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)”
+          with
+          [
+              _Elem=char,
+              _Alloc=std::allocator<char>
+          ]
+  		D:\vs code\test20240128\test20240128\01.cpp(18,9):
+  		“std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(std::initializer_list<_Elem>,const _Alloc &)”: 无法将参数 1 从“std::string (__cdecl showcoo::* )(void)”转换为“std::initializer_list<_Elem>”
+          with
+          [
+              _Elem=char,
+              _Alloc=std::allocator<char>
+          ]
+          and
+          [
+              _Elem=char
+          ]
+  			D:\vs code\test20240128\test20240128\01.cpp(18,16):
+  			转换要求第二个用户定义的转换运算符或构造函数
+  	D:\Visual stdio2022\VC\Tools\MSVC\14.38.33130\include\xstring(2575,5):
+  	或    “std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string(_Iter,_Iter,const _Alloc &)”
+          with
+          [
+              _Alloc=std::allocator<char>
+          ]
+  	D:\vs code\test20240128\test20240128\01.cpp(18,9):
+  	尝试匹配参数列表“(std::string (__cdecl showcoo::* )(void))”时
+  
+D:\vs code\test20240128\test20240128\01.cpp(22,9): error C2065: “var”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(22,13): error C2146: 语法错误: 缺少“;”(在标识符“o”的前面)
+D:\vs code\test20240128\test20240128\01.cpp(22,13): error C2065: “o”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(22,17): error C3861: “firecracker”: 找不到标识符
+D:\vs code\test20240128\test20240128\01.cpp(23,9): error C2065: “var”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(23,13): error C2146: 语法错误: 缺少“;”(在标识符“n”的前面)
+D:\vs code\test20240128\test20240128\01.cpp(23,13): error C2065: “n”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(23,17): error C3861: “aheight”: 找不到标识符
+D:\vs code\test20240128\test20240128\01.cpp(24,9): error C2065: “var”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(24,13): error C2146: 语法错误: 缺少“;”(在标识符“speed”的前面)
+D:\vs code\test20240128\test20240128\01.cpp(24,13): error C2065: “speed”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(24,27): error C2039: "speed": 不是 "showcoo" 的成员
+  D:\vs code\test20240128\test20240128\01.cpp(9,7):
+  参见“showcoo”的声明
+  
+D:\vs code\test20240128\test20240128\01.cpp(25,9): error C2065: “var”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(25,13): error C2146: 语法错误: 缺少“;”(在标识符“e”的前面)
+D:\vs code\test20240128\test20240128\01.cpp(25,13): error C2065: “e”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(25,17): error C3867: “showcoo::expl”: 非标准语法；请使用 "&" 来创建指向成员的指针
+D:\vs code\test20240128\test20240128\01.cpp(26,9): error C2065: “var”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(26,13): error C2146: 语法错误: 缺少“;”(在标识符“s”的前面)
+D:\vs code\test20240128\test20240128\01.cpp(26,13): error C2065: “s”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(26,17): error C2563: 在形参表中不匹配
+D:\vs code\test20240128\test20240128\01.cpp(26,17): error C2568: “=”: 无法解析函数重载
+  D:\vs code\test20240128\test20240128\01.cpp(26,17):
+  可能是“size_t std::size(const _Ty (&)[_Size]) noexcept”
+  D:\vs code\test20240128\test20240128\01.cpp(26,17):
+  或    “unknown-type std::size(const _Container &) noexcept(<expr>)”
+  
+D:\vs code\test20240128\test20240128\01.cpp(27,9): error C2065: “var”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(27,13): error C2146: 语法错误: 缺少“;”(在标识符“k”的前面)
+D:\vs code\test20240128\test20240128\01.cpp(27,13): error C2065: “k”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(27,17): error C2065: “n”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(28,9): error C2065: “var”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(28,13): error C2146: 语法错误: 缺少“;”(在标识符“m”的前面)
+D:\vs code\test20240128\test20240128\01.cpp(28,13): error C2065: “m”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(29,13): error C2065: “o”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(29,32): error C2065: “o”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(29,51): error C2065: “k”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(29,55): error C2065: “speed”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(30,13): error C2065: “k”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(30,18): error C2065: “k”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(30,22): error C2065: “speed”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(31,17): error C2065: “k”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(32,31): error C2065: “clear”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(32,17): error C3861: “clearInterval”: 找不到标识符
+D:\vs code\test20240128\test20240128\01.cpp(33,19): error C2065: “o”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(33,22): error C2065: “n”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(33,25): error C2065: “s”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(33,28): error C2065: “speed”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(33,17): error C3861: “e”: 找不到标识符
+D:\vs code\test20240128\test20240128\01.cpp(36,9): error C2065: “o”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(37,22): error C2065: “o”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(37,13): error C3861: “parseInt”: 找不到标识符
+D:\vs code\test20240128\test20240128\01.cpp(37,42): error C2065: “n”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(38,13): error C2065: “clear”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(38,33): error C2065: “m”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(38,21): error C3861: “setInterval”: 找不到标识符
+D:\vs code\test20240128\test20240128\01.cpp(43,17): error C2065: “n”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(44,18): error C2065: “n”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(47,29): error C2065: “s”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(48,13): error C2065: “Element”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(48,21): error C2146: 语法错误: 缺少“;”(在标识符“span”的前面)
+D:\vs code\test20240128\test20240128\01.cpp(48,21): error C2065: “span”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(48,28): error C2065: “document”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(49,13): error C2065: “Element”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(49,21): error C2146: 语法错误: 缺少“;”(在标识符“p”的前面)
+D:\vs code\test20240128\test20240128\01.cpp(49,21): error C2065: “p”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(49,25): error C2065: “document”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(50,13): error C2065: “span”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(51,13): error C2065: “span”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(52,13): error C2065: “span”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(53,13): error C2065: “span”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(54,13): error C2065: “p”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(55,13): error C2065: “p”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(56,13): error C2065: “p”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(57,13): error C2065: “p”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(58,13): error C2065: “o”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(58,28): error C2065: “span”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(59,13): error C2065: “o”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(59,28): error C2065: “p”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(61,9): error C2065: “function”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(61,18): error C2146: 语法错误: 缺少“;”(在标识符“spr”的前面)
+D:\vs code\test20240128\test20240128\01.cpp(61,18): error C3861: “spr”: 找不到标识符
+D:\vs code\test20240128\test20240128\01.cpp(62,22): error C2065: “speed”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(62,27): error C2059: 语法错误:“;”
+D:\vs code\test20240128\test20240128\01.cpp(63,24): error C2065: “speed”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(64,20): error C2065: “Element”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(64,13): error C2923: "std::vector": "Element" 不是参数 "_Ty" 的有效 模板 类型参数
+  D:\vs code\test20240128\test20240128\01.cpp(64,20):
+  参见“Element”的声明
+  
+D:\vs code\test20240128\test20240128\01.cpp(64,13): error C2976: “std::vector'”: 模板 参数太少
+  D:\Visual stdio2022\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  参见“std::vector”的声明
+  
+D:\vs code\test20240128\test20240128\01.cpp(64,34): error C2065: “o”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(64,32): error C2512: “std::vector”: 没有合适的默认构造函数可用
+  D:\Visual stdio2022\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  参见“std::vector”的声明
+  
+D:\vs code\test20240128\test20240128\01.cpp(65,20): error C2065: “Element”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(65,13): error C2923: "std::vector": "Element" 不是参数 "_Ty" 的有效 模板 类型参数
+  D:\vs code\test20240128\test20240128\01.cpp(65,20):
+  参见“Element”的声明
+  
+D:\vs code\test20240128\test20240128\01.cpp(65,13): error C2976: “std::vector'”: 模板 参数太少
+  D:\Visual stdio2022\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  参见“std::vector”的声明
+  
+D:\vs code\test20240128\test20240128\01.cpp(65,33): error C2065: “o”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(65,31): error C2512: “std::vector”: 没有合适的默认构造函数可用
+  D:\Visual stdio2022\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  参见“std::vector”的声明
+  
+D:\vs code\test20240128\test20240128\01.cpp(66,35): error C2662: “allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const”: 不能将“this”指针从“std::vector”转换为“const std::vector<_Ty,_Alloc> &”
+  D:\vs code\test20240128\test20240128\01.cpp(66,33):
+  原因如下: 无法从“std::vector”转换为“const std::vector<_Ty,_Alloc>”
+  D:\vs code\test20240128\test20240128\01.cpp(66,33):
+  转换要求第二个用户定义的转换运算符或构造函数
+  D:\Visual stdio2022\VC\Tools\MSVC\14.38.33130\include\vector(1875,39):
+  参见“std::vector<_Ty,_Alloc>::size”的声明
+  D:\vs code\test20240128\test20240128\01.cpp(66,35):
+  尝试匹配参数列表“()”时
+  
+D:\vs code\test20240128\test20240128\01.cpp(67,17): error C2678: 二进制“[”: 没有找到接受“std::vector”类型的左操作数的运算符(或没有可接受的转换)
+  D:\Visual stdio2022\VC\Tools\MSVC\14.38.33130\include\vector(1900,40):
+  可能是“const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const”
+  D:\Visual stdio2022\VC\Tools\MSVC\14.38.33130\include\vector(1890,34):
+  或    “_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept”
+  D:\vs code\test20240128\test20240128\01.cpp(67,17):
+  尝试匹配参数列表“(std::vector, int)”时
+  
+D:\vs code\test20240128\test20240128\01.cpp(67,52): error C2065: “s”: 未声明的标识符
+D:\vs code\test20240128\test20240128\01.cpp(68,17): error C2678: 二进制“[”: 没有找到接受“std::vector”类型的左操作数的运算符(或没有可接受的转换)
+  D:\Visual stdio2022\VC\Tools\MSVC\14.38.33130\include\vector(1900,40):
+  可能是“const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept const”
+  D:\Visual stdio2022\VC\Tools\MSVC\14.38.33130\include\vector(1890,34):
+  或    “_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) noexcept”
+  D:\vs code\test20240128\test20240128\01.cpp(68,17):
+  尝试匹配参数列表“(std::vector, int)”时
+  
+D:\vs code\test20240128\test20240128\01.cpp(68,17): error C1003: 错误计数超过 100；正在停止编译

@@ -1,0 +1,13 @@
+﻿  01.c
+D:\vs code\test20240128\test20240128\01.c(20,17): error C2057: 应输入常量表达式
+D:\vs code\test20240128\test20240128\01.c(20,27): error C2466: 不能分配常量大小为 0 的数组
+D:\vs code\test20240128\test20240128\01.c(20,10): error C2133: “buffer”: 未知的大小
+D:\vs code\test20240128\test20240128\01.c(35,34): warning C4047: “函数”:“int”与“HWND”的间接级别不同
+D:\vs code\test20240128\test20240128\01.c(35,34): warning C4024: “sendMessage”: 形参和实参 1 的类型不同
+D:\vs code\test20240128\test20240128\01.c(25,15): error C2440: “初始化”: 无法从“FARPROC”转换为“int (__cdecl *)(HMODULE,const char *)”
+D:\vs code\test20240128\test20240128\01.c(26,15): error C2440: “初始化”: 无法从“FARPROC”转换为“int (__cdecl *)(int,int,int,int)”
+D:\vs code\test20240128\test20240128\01.c(46,11): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\vs code\test20240128\test20240128\01.c(60,30): warning C4047: “函数”:“int”与“HWND”的间接级别不同
+D:\vs code\test20240128\test20240128\01.c(60,30): warning C4024: “sendMessage”: 形参和实参 1 的类型不同
+D:\vs code\test20240128\test20240128\01.c(50,11): error C2440: “初始化”: 无法从“FARPROC”转换为“int (__cdecl *)(HMODULE,const char *)”
+D:\vs code\test20240128\test20240128\01.c(51,11): error C2440: “初始化”: 无法从“FARPROC”转换为“int (__cdecl *)(int,int,int,int)”
