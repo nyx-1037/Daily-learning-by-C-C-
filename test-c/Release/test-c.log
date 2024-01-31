@@ -1,0 +1,4 @@
+﻿  test-c.cpp
+D:\vs code\test-c\test-c.cpp(30,9): error C2022: “257”: 对字符来说太大
+  test2.cpp
+c1xx : fatal  error C1083: 无法打开源文件: “test2.cpp”: No such file or directory

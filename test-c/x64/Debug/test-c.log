@@ -1,0 +1,3 @@
+﻿  test-c.cpp
+D:\vs code\test-c\test-c.cpp(11,1): warning C4326: “main”的返回类型应为“int”而非“void”
+  test-c.vcxproj -> D:\vs code\test-c\x64\Debug\test-c.exe
