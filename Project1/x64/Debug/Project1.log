@@ -1,0 +1,4 @@
+﻿  FileName.cpp
+D:\vs code\Project1\FileName.cpp(10,28): error C3861: “pow”: 找不到标识符
+D:\vs code\Project1\FileName.cpp(16,28): error C3861: “pow”: 找不到标识符
+D:\vs code\Project1\FileName.cpp(5,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
