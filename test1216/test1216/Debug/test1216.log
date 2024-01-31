@@ -1,0 +1,6 @@
+﻿  1216.cpp
+D:\vs code\test1216\test1216\1216.cpp(33,51): warning C4474: printf: 格式字符串中传递的参数太多
+  D:\vs code\test1216\test1216\1216.cpp(33,51):
+  占位符和其参数预计 1 可变参数，但提供的却是 3 参数
+  
+  test1216.vcxproj -> D:\vs code\test1216\Debug\test1216.exe
