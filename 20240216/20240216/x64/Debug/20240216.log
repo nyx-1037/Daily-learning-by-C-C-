@@ -1,0 +1,4 @@
+﻿  0216.cpp
+E:\VS code\2024daily C\20240216\20240216\0216.cpp(33,12): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“int”
+E:\VS code\2024daily C\20240216\20240216\0216.cpp(33,12): warning C4313: "printf": 格式字符串中的 "%s" 与类型为 "int" 的参数 1 冲突
+  20240216.vcxproj -> E:\VS code\2024daily C\20240216\x64\Debug\20240216.exe
