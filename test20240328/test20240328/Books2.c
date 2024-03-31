@@ -23,20 +23,19 @@ int main() {
     int choice, id, position;
     char name[50];
     float price;
+    system("color 34");
 
-    while (1) {
-        printf("++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+     do{
         printf("****************************************************\n");
-        printf("************** Mr.Nie的图书管理系统 ****************\n");
+        printf("**************** Mr.Nie图书管理系统 ****************\n");
         printf("******************* 1. 添加图书 ********************\n");
         printf("******************* 2. 显示图书 ********************\n");
         printf("******************* 3. 删除图书 ********************\n");
         printf("***************** 4. 更新图书信息 ******************\n");
-        printf("********************* 5. 退出 **********************\n");
+        printf("********************* 0. 退出 **********************\n");
         printf("****************************************************\n");
         printf("请输入您的选择：");
         scanf("%d", &choice);
-        printf("++++++++++++++++++++++++++++++++++++++++++++++++++++\n");
         switch (choice) {
         case 1:
             printf("请输入图书ID：");
@@ -45,8 +44,9 @@ int main() {
             scanf("%s", name);
             printf("请输入图书价格：");
             scanf("%f", &price);
-            printf("请输入图书位置（1-末尾，2-开头）：");
+            printf("请输入图书位置（1-末尾，2-开头,如数据为空请选择1-末尾）：");
             scanf("%d", &position);
+            printf("添加成功！\n");
             addBook(&head, id, name, price, position);
             break;
         case 2:
@@ -66,12 +66,12 @@ int main() {
             scanf("%f", &price);
             updateBook(&head, id, name, price);
             break;
-        case 5:
-            exit(0);
+        case 0:
+            break;
         default:
             printf("无效的选择，请重新输入\n");
         }
-    }
+     } while (choice);
 
     return 0;
 }
@@ -102,10 +102,11 @@ void addBook(Book** head, int id, const char* name, float price, int position) {
 void displayBooks(const Book* head) {
     const Book* current = head;
     while (current != NULL) {
+        printf("*****************************\n");
         printf("ID: %d\n", current->id);
         printf("名称： %s\n", current->name);
         printf("价格： %.2f\n", current->price);
-        printf("\n");
+        printf("*****************************\n");
         current = current->next;
     }
 }
